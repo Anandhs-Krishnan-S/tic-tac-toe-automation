@@ -10,3 +10,18 @@ override.tf.json
 *.override.tf.json
 # Keep the lock file tracked:
 #! .terraform.lock.hcl
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+override.tf
+override.tf.json
+*.override.tf
+*.override.tf.json
+# Keep the lock file tracked:
+!.terraform.lock.hcl
+.terraform/
+*.tfstate
+*.tfstate.*
