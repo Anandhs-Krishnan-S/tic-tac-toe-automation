@@ -1,0 +1,12 @@
+{
+  "name": "tic-tac-toe-automation",
+  "version": "1.0.0",
+  "description": "Tic-Tac-Toe web app with CI/CD to Azure App Service via GitHub Actions and Terraform.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
